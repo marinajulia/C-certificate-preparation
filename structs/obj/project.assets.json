@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marin\\source\\repos\\structs\\structs\\structs.csproj",
-      "projectName": "structs",
-      "projectPath": "C:\\Users\\marin\\source\\repos\\structs\\structs\\structs.csproj",
+      "projectUniqueName": "C:\\Users\\marin\\source\\repos\\structs\\structs\\Programming1.csproj",
+      "projectName": "Programming1",
+      "projectPath": "C:\\Users\\marin\\source\\repos\\structs\\structs\\Programming1.csproj",
       "packagesPath": "C:\\Users\\marin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\marin\\source\\repos\\structs\\structs\\obj\\",
       "projectStyle": "PackageReference",

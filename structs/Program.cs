@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Programming1.Enums;
+using System;
 
 namespace structs
 {
@@ -6,11 +7,10 @@ namespace structs
     {
         static void Main(string[] args)
         {
-            //Structs.teste();
-
-            Structs test1 = new Structs();
-
-            test1.structs();
+            Structs str = new Structs();
+            Enums enu = new Enums();
+            //str.structs();
+            enu.Executar();
         }
     }
 }
