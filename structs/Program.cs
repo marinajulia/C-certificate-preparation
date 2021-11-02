@@ -1,5 +1,5 @@
 ﻿using Programming1.Enums;
-using System;
+using Programming1.Tipos_de_Referencia;
 
 namespace structs
 {
@@ -9,8 +9,10 @@ namespace structs
         {
             Structs str = new Structs();
             Enums enu = new Enums();
-            //str.structs();
-            enu.Executar();
+            TiposDeReferencia tipos = new TiposDeReferencia();
+            //str.Executar();
+            //enu.Executar();
+            tipos.Executar();
         }
     }
 }

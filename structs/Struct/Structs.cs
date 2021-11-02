@@ -6,7 +6,7 @@ namespace structs
 {
     public class Structs
     {
-        public void structs()
+        public void Executar()
         {
             PosicaoGps posicao1;
             posicao1.Latitude = 13.78;
