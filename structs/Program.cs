@@ -4,6 +4,7 @@ using Programming1.Dynamic;
 using Programming1.Enums;
 using Programming1.Interfaces;
 using Programming1.Objetos;
+using Programming1.Strings;
 using Programming1.Tipos_de_Referencia;
 using System;
 
@@ -21,6 +22,7 @@ namespace structs
             Delegates delegates = new Delegates();
             Objetos objetos = new Objetos();
             Dynamics dynamic = new Dynamics();
+            Strings strings = new Strings();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -28,7 +30,8 @@ namespace structs
             //interfaces.Executar();
             //delegates.Executar();
             //objetos.Executar();
-            dynamic.Executar();
+            //dynamic.Executar();
+            strings.Executar();
         }
     }
 }
