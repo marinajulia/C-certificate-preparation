@@ -2,6 +2,7 @@
 using Programming1.Delegate;
 using Programming1.Enums;
 using Programming1.Interfaces;
+using Programming1.Objetos;
 using Programming1.Tipos_de_Referencia;
 using System;
 
@@ -17,12 +18,14 @@ namespace structs
             Classes classes = new Classes();
             Interfaces interfaces = new Interfaces();
             Delegates delegates = new Delegates();
+            Objetos objetos = new Objetos();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
             //classes.Executar();
             //interfaces.Executar();
-            delegates.Executar();
+            //delegates.Executar();
+            objetos.Executar();
         }
     }
 }
