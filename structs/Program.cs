@@ -25,6 +25,7 @@ namespace structs
             Dynamics dynamic = new Dynamics();
             Strings strings = new Strings();
             ParametrosNomeados parametrosNomeados= new ParametrosNomeados();
+            ParametrosOpcionais parametrosOpcionais = new ParametrosOpcionais();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -34,7 +35,8 @@ namespace structs
             //objetos.Executar();
             //dynamic.Executar();
             //strings.Executar();
-            parametrosNomeados.Executar();
+            //parametrosNomeados.Executar();
+            parametrosOpcionais.Executar();
         }
     }
 }
