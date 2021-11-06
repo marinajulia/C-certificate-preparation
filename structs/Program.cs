@@ -3,6 +3,7 @@ using Programming1.Delegate;
 using Programming1.Dynamic;
 using Programming1.Enums;
 using Programming1.Interfaces;
+using Programming1.Metodos_de_extensao;
 using Programming1.Objetos;
 using Programming1.Parametros_Opcionais;
 using Programming1.Strings;
@@ -26,6 +27,7 @@ namespace structs
             Strings strings = new Strings();
             ParametrosNomeados parametrosNomeados= new ParametrosNomeados();
             ParametrosOpcionais parametrosOpcionais = new ParametrosOpcionais();
+            MetodosDeExtensao metodosDeExtensao = new MetodosDeExtensao();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -36,7 +38,8 @@ namespace structs
             //dynamic.Executar();
             //strings.Executar();
             //parametrosNomeados.Executar();
-            parametrosOpcionais.Executar();
+            //parametrosOpcionais.Executar();
+            metodosDeExtensao.Executar();
         }
     }
 }
