@@ -6,6 +6,7 @@ using Programming1.Interfaces;
 using Programming1.Metodos_de_extensao;
 using Programming1.Objetos;
 using Programming1.Parametros_Opcionais;
+using Programming1.Propriedades_Indexadas;
 using Programming1.Strings;
 using Programming1.Tipos_de_Referencia;
 using System;
@@ -28,6 +29,7 @@ namespace structs
             ParametrosNomeados parametrosNomeados= new ParametrosNomeados();
             ParametrosOpcionais parametrosOpcionais = new ParametrosOpcionais();
             MetodosDeExtensao metodosDeExtensao = new MetodosDeExtensao();
+            PropriedadesIndexadas propriedadesIndexadas = new PropriedadesIndexadas();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -39,7 +41,8 @@ namespace structs
             //strings.Executar();
             //parametrosNomeados.Executar();
             //parametrosOpcionais.Executar();
-            metodosDeExtensao.Executar();
+            //metodosDeExtensao.Executar();
+            propriedadesIndexadas.Executar();
         }
     }
 }
