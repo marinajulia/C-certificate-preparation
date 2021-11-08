@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BSl9HWHmPixBoICaQq2/ShHHB+NnSEX4RWs9hdjfc7NdD75RJ1x8BXauB6Bh8d41YidXW0AskimikF0WrSgT8g==",
+  "dgSpecHash": "L4BzwzqBiUyF4+30QFhWaSJYfAlGv9IqGQCA1gUXH8qymtE6n7257UJVarVIYkTe6uHSXCcsUMUwx8OQyHV/Ng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marina\\Documents\\C-certificate-preparation\\structs\\Programming1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\marin\\Desktop\\Certificate\\C-certificate-preparation\\structs\\Programming1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -19,7 +19,7 @@
     {
         public string Nome { get; set; }
 
-        public void Beber()
+        public new void Beber()
         {
             System.Console.WriteLine("animal.beber");
         }
@@ -28,7 +28,7 @@
         {
             System.Console.WriteLine("animal.comer");
         }
-        public void Andar()
+        public new void Andar()
         {
             System.Console.WriteLine("animal.andar");
         }
@@ -48,4 +48,5 @@
         {
             System.Console.WriteLine("gato.andar");
         }
+    }
 }
