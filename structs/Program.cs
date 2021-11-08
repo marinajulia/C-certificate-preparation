@@ -4,6 +4,7 @@ using Programming1.Dynamic;
 using Programming1.Enums;
 using Programming1.Interfaces;
 using Programming1.Metodos_de_extensao;
+using Programming1.Métodos_sobrecarregados;
 using Programming1.Objetos;
 using Programming1.Parametros_Opcionais;
 using Programming1.Propriedades_Indexadas;
@@ -30,6 +31,7 @@ namespace structs
             ParametrosOpcionais parametrosOpcionais = new ParametrosOpcionais();
             MetodosDeExtensao metodosDeExtensao = new MetodosDeExtensao();
             PropriedadesIndexadas propriedadesIndexadas = new PropriedadesIndexadas();
+            Sobrecargas sobrecargas = new Sobrecargas();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -42,7 +44,8 @@ namespace structs
             //parametrosNomeados.Executar();
             //parametrosOpcionais.Executar();
             //metodosDeExtensao.Executar();
-            propriedadesIndexadas.Executar();
+            //propriedadesIndexadas.Executar();
+            sobrecargas.Executar();
         }
     }
 }
