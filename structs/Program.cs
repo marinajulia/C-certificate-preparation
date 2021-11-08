@@ -5,12 +5,12 @@ using Programming1.Enums;
 using Programming1.Interfaces;
 using Programming1.Metodos_de_extensao;
 using Programming1.Métodos_sobrecarregados;
+using Programming1.Metodos_substituidos;
 using Programming1.Objetos;
 using Programming1.Parametros_Opcionais;
 using Programming1.Propriedades_Indexadas;
 using Programming1.Strings;
 using Programming1.Tipos_de_Referencia;
-using System;
 
 namespace structs
 {
@@ -32,6 +32,7 @@ namespace structs
             MetodosDeExtensao metodosDeExtensao = new MetodosDeExtensao();
             PropriedadesIndexadas propriedadesIndexadas = new PropriedadesIndexadas();
             Sobrecargas sobrecargas = new Sobrecargas();
+            MetodosSubstituidos metodosSubstituidos = new MetodosSubstituidos();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -45,7 +46,8 @@ namespace structs
             //parametrosOpcionais.Executar();
             //metodosDeExtensao.Executar();
             //propriedadesIndexadas.Executar();
-            sobrecargas.Executar();
+            //sobrecargas.Executar();
+            metodosSubstituidos.Executar();
         }
     }
 }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cdb4+DL8Iydhg4YLCzLvBy0Lk/v/0uN2hEC6bOQt9mLeUt339xXVu8TPF62Zw+7qt3gYLEoHwIYatjZ86VSeug==",
+  "dgSpecHash": "BSl9HWHmPixBoICaQq2/ShHHB+NnSEX4RWs9hdjfc7NdD75RJ1x8BXauB6Bh8d41YidXW0AskimikF0WrSgT8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marin\\source\\repos\\structs\\structs\\Programming1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Marina\\Documents\\C-certificate-preparation\\structs\\Programming1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
