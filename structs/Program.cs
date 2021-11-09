@@ -59,8 +59,6 @@ namespace structs
             //conversoesImplicitas.Executar();
             //conversoesExplicitas.Executar();
             operadores.Executar();
-
-            
         }
     }
 }
