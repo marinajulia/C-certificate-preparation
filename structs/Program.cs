@@ -1,4 +1,5 @@
 ﻿using Programming._2.Boxing;
+using Programming._2.Conversoes_implicitas;
 using Programming1.Classe;
 using Programming1.Delegate;
 using Programming1.Dynamic;
@@ -35,6 +36,7 @@ namespace structs
             Sobrecargas sobrecargas = new Sobrecargas();
             MetodosSubstituidos metodosSubstituidos = new MetodosSubstituidos();
             Boxing boxing = new Boxing();
+            ConversoesImplicitas conversoesImplicitas = new ConversoesImplicitas();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -50,7 +52,8 @@ namespace structs
             //propriedadesIndexadas.Executar();
             //sobrecargas.Executar();
             //metodosSubstituidos.Executar();
-            boxing.Executar();
+            //boxing.Executar();
+            conversoesImplicitas.Executar();
         }
     }
 }
