@@ -1,4 +1,5 @@
-﻿using Programming1.Classe;
+﻿using Programming._2.Boxing;
+using Programming1.Classe;
 using Programming1.Delegate;
 using Programming1.Dynamic;
 using Programming1.Enums;
@@ -33,6 +34,7 @@ namespace structs
             PropriedadesIndexadas propriedadesIndexadas = new PropriedadesIndexadas();
             Sobrecargas sobrecargas = new Sobrecargas();
             MetodosSubstituidos metodosSubstituidos = new MetodosSubstituidos();
+            Boxing boxing = new Boxing();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -47,7 +49,8 @@ namespace structs
             //metodosDeExtensao.Executar();
             //propriedadesIndexadas.Executar();
             //sobrecargas.Executar();
-            metodosSubstituidos.Executar();
+            //metodosSubstituidos.Executar();
+            boxing.Executar();
         }
     }
 }
