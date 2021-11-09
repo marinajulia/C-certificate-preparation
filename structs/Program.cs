@@ -39,6 +39,7 @@ namespace structs
             Boxing boxing = new Boxing();
             ConversoesImplicitas conversoesImplicitas = new ConversoesImplicitas();
             ConversoesExplicitas conversoesExplicitas = new ConversoesExplicitas();
+            Operadores operadores = new Operadores();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -56,7 +57,8 @@ namespace structs
             //metodosSubstituidos.Executar();
             //boxing.Executar();
             //conversoesImplicitas.Executar();
-            conversoesExplicitas.Executar();
+            //conversoesExplicitas.Executar();
+            operadores.Executar();
 
             
         }
