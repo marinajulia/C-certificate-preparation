@@ -1,4 +1,5 @@
 ﻿using Programming._2.Boxing;
+using Programming._2.Conversoes_explicitas;
 using Programming._2.Conversoes_implicitas;
 using Programming1.Classe;
 using Programming1.Delegate;
@@ -37,6 +38,7 @@ namespace structs
             MetodosSubstituidos metodosSubstituidos = new MetodosSubstituidos();
             Boxing boxing = new Boxing();
             ConversoesImplicitas conversoesImplicitas = new ConversoesImplicitas();
+            ConversoesExplicitas conversoesExplicitas = new ConversoesExplicitas();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -53,7 +55,10 @@ namespace structs
             //sobrecargas.Executar();
             //metodosSubstituidos.Executar();
             //boxing.Executar();
-            conversoesImplicitas.Executar();
+            //conversoesImplicitas.Executar();
+            conversoesExplicitas.Executar();
+
+            
         }
     }
 }
