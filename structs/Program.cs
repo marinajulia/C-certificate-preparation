@@ -3,6 +3,7 @@ using Programming._2.Conversões_com_classes_auxiliares;
 using Programming._2.Conversoes_explicitas;
 using Programming._2.Conversoes_implicitas;
 using Programming._2.Operadores_de_conversão;
+using Programming._2.Resolucao_de_Sobrecarga;
 using Programming._2.string__var__dinamic;
 using Programming._2.string__var__dynamic.Conversoes_entre_dynamic;
 using Programming1.Classe;
@@ -48,6 +49,7 @@ namespace structs
             MetodosAuxiliares metodosAuxiliares = new MetodosAuxiliares();
             UsandoDynamic usandoDynamic = new UsandoDynamic();
             ConversoesDeDynamic conversoesDeDynamic = new ConversoesDeDynamic();
+            ResolucaoDeSobrecarga resolucaoDeSobrecarga = new ResolucaoDeSobrecarga();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -70,7 +72,8 @@ namespace structs
             //operadoresDeConversao.Executar();
             //metodosAuxiliares.Executar();
             //usandoDynamic.Executar();
-            conversoesDeDynamic.Executar();
+            //conversoesDeDynamic.Executar();
+            resolucaoDeSobrecarga.Executar();
         }
     }
 }
