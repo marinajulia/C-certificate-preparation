@@ -3,6 +3,7 @@ using Programming._2.Conversões_com_classes_auxiliares;
 using Programming._2.Conversoes_explicitas;
 using Programming._2.Conversoes_implicitas;
 using Programming._2.Operadores_de_conversão;
+using Programming._2.string__var__dinamic;
 using Programming1.Classe;
 using Programming1.Delegate;
 using Programming1.Dynamic;
@@ -44,6 +45,7 @@ namespace structs
             Operadores operadores = new Operadores();
             OperadoresDeConversao operadoresDeConversao = new OperadoresDeConversao();
             MetodosAuxiliares metodosAuxiliares = new MetodosAuxiliares();
+            UsandoDynamic usandoDynamic = new UsandoDynamic();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -64,7 +66,8 @@ namespace structs
             //conversoesExplicitas.Executar();
             //operadores.Executar();
             //operadoresDeConversao.Executar();
-            metodosAuxiliares.Executar();
+            //metodosAuxiliares.Executar();
+            usandoDynamic.Executar();
         }
     }
 }
