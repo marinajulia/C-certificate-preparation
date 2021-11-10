@@ -1,4 +1,5 @@
 ﻿using Programming._2.Boxing;
+using Programming._2.Conversões_com_classes_auxiliares;
 using Programming._2.Conversoes_explicitas;
 using Programming._2.Conversoes_implicitas;
 using Programming._2.Operadores_de_conversão;
@@ -42,6 +43,7 @@ namespace structs
             ConversoesExplicitas conversoesExplicitas = new ConversoesExplicitas();
             Operadores operadores = new Operadores();
             OperadoresDeConversao operadoresDeConversao = new OperadoresDeConversao();
+            MetodosAuxiliares metodosAuxiliares = new MetodosAuxiliares();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -61,7 +63,8 @@ namespace structs
             //conversoesImplicitas.Executar();
             //conversoesExplicitas.Executar();
             //operadores.Executar();
-            operadoresDeConversao.Executar();
+            //operadoresDeConversao.Executar();
+            metodosAuxiliares.Executar();
         }
     }
 }
