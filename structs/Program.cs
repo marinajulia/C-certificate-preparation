@@ -1,6 +1,7 @@
 ﻿using Programming._2.Boxing;
 using Programming._2.Conversoes_explicitas;
 using Programming._2.Conversoes_implicitas;
+using Programming._2.Operadores_de_conversão;
 using Programming1.Classe;
 using Programming1.Delegate;
 using Programming1.Dynamic;
@@ -40,6 +41,7 @@ namespace structs
             ConversoesImplicitas conversoesImplicitas = new ConversoesImplicitas();
             ConversoesExplicitas conversoesExplicitas = new ConversoesExplicitas();
             Operadores operadores = new Operadores();
+            OperadoresDeConversao operadoresDeConversao = new OperadoresDeConversao();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -58,7 +60,8 @@ namespace structs
             //boxing.Executar();
             //conversoesImplicitas.Executar();
             //conversoesExplicitas.Executar();
-            operadores.Executar();
+            //operadores.Executar();
+            operadoresDeConversao.Executar();
         }
     }
 }
