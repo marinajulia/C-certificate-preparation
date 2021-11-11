@@ -2,6 +2,7 @@
 using Programming._2.Conversões_com_classes_auxiliares;
 using Programming._2.Conversoes_explicitas;
 using Programming._2.Conversoes_implicitas;
+using Programming._2.Interoperabilidade_COM;
 using Programming._2.Operadores_de_conversão;
 using Programming._2.Resolucao_de_Sobrecarga;
 using Programming._2.string__var__dinamic;
@@ -51,6 +52,7 @@ namespace structs
             ConversoesDeDynamic conversoesDeDynamic = new ConversoesDeDynamic();
             ResolucaoDeSobrecarga resolucaoDeSobrecarga = new ResolucaoDeSobrecarga();
             UsandoExpandObject usandoExpandObject = new UsandoExpandObject();
+            InteropCOM interopCOM = new InteropCOM();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -75,7 +77,8 @@ namespace structs
             //usandoDynamic.Executar();
             //conversoesDeDynamic.Executar();
             //resolucaoDeSobrecarga.Executar();
-            usandoExpandObject.Executar();
+            //usandoExpandObject.Executar();
+            interopCOM.Executar();
         }
     }
 }
