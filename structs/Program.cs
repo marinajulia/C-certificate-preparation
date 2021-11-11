@@ -50,6 +50,7 @@ namespace structs
             UsandoDynamic usandoDynamic = new UsandoDynamic();
             ConversoesDeDynamic conversoesDeDynamic = new ConversoesDeDynamic();
             ResolucaoDeSobrecarga resolucaoDeSobrecarga = new ResolucaoDeSobrecarga();
+            UsandoExpandObject usandoExpandObject = new UsandoExpandObject();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -73,7 +74,8 @@ namespace structs
             //metodosAuxiliares.Executar();
             //usandoDynamic.Executar();
             //conversoesDeDynamic.Executar();
-            resolucaoDeSobrecarga.Executar();
+            //resolucaoDeSobrecarga.Executar();
+            usandoExpandObject.Executar();
         }
     }
 }
