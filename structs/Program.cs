@@ -55,7 +55,7 @@ namespace structs
             ResolucaoDeSobrecarga resolucaoDeSobrecarga = new ResolucaoDeSobrecarga();
             UsandoExpandObject usandoExpandObject = new UsandoExpandObject();
             InteropCOM interopCOM = new InteropCOM();
-            Encapsulamento funcionario = new Encapsulamento();
+            Encapsulamento funcionario = new Encapsulamento(1000);
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -86,7 +86,7 @@ namespace structs
 
             //funcionario.Salario = -1200;
             //Console.WriteLine(funcionario.Salario);
-            funcionario.Salario = 1200;
+            //funcionario.Salario = 1200;
             Console.WriteLine(funcionario.Salario);
 
         }
