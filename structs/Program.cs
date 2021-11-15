@@ -8,6 +8,7 @@ using Programming._2.Resolucao_de_Sobrecarga;
 using Programming._2.string__var__dinamic;
 using Programming._2.string__var__dynamic.Conversoes_entre_dynamic;
 using Programming._3.Encapsulamento;
+using Programming._3.equals;
 using Programming1.Classe;
 using Programming1.Delegate;
 using Programming1.Dynamic;
@@ -56,6 +57,7 @@ namespace structs
             UsandoExpandObject usandoExpandObject = new UsandoExpandObject();
             InteropCOM interopCOM = new InteropCOM();
             Encapsulamento funcionario = new Encapsulamento(1000);
+            Equals equals = new Equals();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -82,12 +84,13 @@ namespace structs
             //resolucaoDeSobrecarga.Executar();
             //usandoExpandObject.Executar();
             //interopCOM.Executar();
+            equals.Executar();
 
 
             //funcionario.Salario = -1200;
             //Console.WriteLine(funcionario.Salario);
             //funcionario.Salario = 1200;
-            Console.WriteLine(funcionario.Salario);
+            //Console.WriteLine(funcionario.Salario);
 
         }
     }
