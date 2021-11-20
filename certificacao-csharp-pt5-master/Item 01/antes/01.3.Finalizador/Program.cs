@@ -32,10 +32,10 @@ namespace _01._3.Finalizador_antes
             Id = UltimoId;
             //Trace.WriteLine("Livro " + Id + " está sendo criado");
         }
-        ~Livro()
-        {
-            //liberar somente os recursos não gerenciados
-            Trace.WriteLine("Livro " + Id + " está sendo finalizado");
-        }
+        //~Livro()
+        //{
+        //    //liberar somente os recursos não gerenciados
+        //    Trace.WriteLine("Livro " + Id + " está sendo finalizado");
+        //}
     }
 }
