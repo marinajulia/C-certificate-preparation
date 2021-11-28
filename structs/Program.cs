@@ -9,6 +9,7 @@ using Programming._2.string__var__dinamic;
 using Programming._2.string__var__dynamic.Conversoes_entre_dynamic;
 using Programming._3.Encapsulamento;
 using Programming._3.equals;
+using Programming.Manipulação_de_string;
 using Programming1.Classe;
 using Programming1.Delegate;
 using Programming1.Dynamic;
@@ -58,6 +59,7 @@ namespace structs
             InteropCOM interopCOM = new InteropCOM();
             Encapsulamento funcionario = new Encapsulamento(1000);
             Equals equals = new Equals();
+            StringBuilder stringBuilder = new StringBuilder();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -84,7 +86,8 @@ namespace structs
             //resolucaoDeSobrecarga.Executar();
             //usandoExpandObject.Executar();
             //interopCOM.Executar();
-            equals.Executar();
+            //equals.Executar();
+            stringBuilder.Executar();
 
 
             //funcionario.Salario = -1200;
