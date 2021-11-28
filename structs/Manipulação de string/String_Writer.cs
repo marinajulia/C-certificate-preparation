@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Programming.Manipulação_de_string
 {
-    public class StringRead
+    public class String_Writer
     {
         public void Executar()
         {
@@ -13,15 +13,19 @@ namespace Programming.Manipulação_de_string
 
             Console.OutputEncoding = Encoding.UTF8;
 
-            using (StringReader stringReader = new StringReader(ingredientes))
+            using StringWriter stringWriter = new StringWriter();
             {
-                string line;
-
-                while ((line = stringReader.ReadLine()) != null)
+                using (StringReader stringReader = new StringReader(ingredientes))
                 {
-                    Console.WriteLine("• " + line);
+                    string line;
+
+                    while ((line = stringReader.ReadLine()) != null)
+                    {
+                        stringWriter.WriteLine("• " + line);
+                    }
+                    Console.ReadKey();
                 }
-                Console.ReadKey();
+                Console.WriteLine(stringWriter);
             }
         }
         private static string GetIngredientes()
@@ -33,3 +37,4 @@ leite";
         }
     }
 }
+

@@ -61,6 +61,7 @@ namespace structs
             Equals equals = new Equals();
             StringBuild stringBuilder = new StringBuild();
             StringRead stringRead = new StringRead();
+            String_Writer string_Writer = new String_Writer();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -89,7 +90,8 @@ namespace structs
             //interopCOM.Executar();
             //equals.Executar();
             //stringBuilder.Executar();
-            stringRead.Executar();
+            //stringRead.Executar();
+            string_Writer.Executar();
 
 
             //funcionario.Salario = -1200;
