@@ -59,7 +59,8 @@ namespace structs
             InteropCOM interopCOM = new InteropCOM();
             Encapsulamento funcionario = new Encapsulamento(1000);
             Equals equals = new Equals();
-            StringBuilder stringBuilder = new StringBuilder();
+            StringBuild stringBuilder = new StringBuild();
+            StringRead stringRead = new StringRead();
             //str.Executar();
             //enu.Executar();
             //tipos.Executar();
@@ -87,7 +88,8 @@ namespace structs
             //usandoExpandObject.Executar();
             //interopCOM.Executar();
             //equals.Executar();
-            stringBuilder.Executar();
+            //stringBuilder.Executar();
+            stringRead.Executar();
 
 
             //funcionario.Salario = -1200;
